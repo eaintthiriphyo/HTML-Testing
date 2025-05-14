@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp Page</title>
+  </head>
+
+  <body style="background-color: #fcf0f0">
+    <h1 align="center">Sign Up for Courses</h1>
+    <form action="/HTML-Testing/JapaneseWeb/welcome.html" method="get">
+      <label for="userName">Full Name </label><br /><br />
+      <input
+        type="text"
+        id="userName"
+        name="userName"
+        placeholder="Enter Full Name"
+        required="required"
+        size="50"
+        maxlength="30"
+      />
+      <br /><br />
+      <label for="email">Student Email</label>
+      <br /><br />
+      <input
+        type="text"
+        name="email"
+        id="email"
+        placeholder="Enter Student Email"
+        required="required"
+        size="50"
+        maxlength="20"
+      />
+      <br /><br />
+      <label for="gender">Gender</label><br /><br />
+      <input type="radio" name="gender" id="gender" value="Male" />Male
+      <input type="radio" name="gender" id="gender" value="female" />Female
+      <input type="radio" name="gender" id="gender" value="other" />Other
+      <br /><br />
+      <label for="phoneNumber">Phone Number</label><br /><br />
+      <select name="country" id="phoneNumber">
+        <option value="combodia">(+855) Combodia</option>
+        <option value="indonesia">(+62) Indonesia</option>
+        <option value="Japn">(+81) Japan</option>
+        <option value="Laos">(+856) Laos</option>
+        <option value="myanmar" selected="selected">(+95) Myanmar</option>
+        <option value="malaysia">(+90) Malaysia</option>
+        <option value="philippine">(+856) Philippine</option>
+        <option value="singpore">(+65) Singpore</option>
+        <option value="thailand">(+66) Thailand</option>
+        <option value="vietnam">(+84) VietNam</option>
+      </select>
+
+      <input
+        type="number"
+        id="phoneNumber"
+        name="phoneNumber"
+        placeholder="Enter Phone Number"
+        required="required"
+        size="50"
+        maxlength="10"
+        minlength="10"
+      />
+      <br /><br />
+      <label for="address">Address</label><br /><br />
+      <input
+        type="text"
+        name="address"
+        id="address"
+        size="50"
+        placeholder="Enter Address"
+        required="required"
+      />
+      <br /><br />
+      <label for="city">City</label><br /><br />
+      <input
+        type="text"
+        name="city"
+        id="city"
+        placeholder="Enter City"
+        size="50"
+        required="required"
+      />
+      <br /><br />
+      <label for="state">State/Province</label><br /><br />
+      <input
+        type="text"
+        name="state"
+        id="state"
+        placeholder="Enter State"
+        size="50"
+        required="required"
+      />
+      <br /><br />
+      <label for="postal">Postal/Zip Code</label><br /><br />
+      <input
+        type="text"
+        name="postal"
+        id="postal"
+        placeholder="Enter Postal/Zip Code"
+        size="50"
+        required="required"
+      />
+      <br /><br />
+      <input
+        type="submit"
+        value="Submit"
+        style="
+          margin-right: 10%;
+          width: 90px;
+          height: 30px;
+          background: #b83f3f;
+          color: #f8f0f0;
+        "
+      />
+      <button
+        type="reset"
+        style="width: 90px;height: 30px; background: #b83f3f; color: #f8f0f0"
+      >
+        Reset
+      </button>
+    </form>
+  </body>
+</html>
