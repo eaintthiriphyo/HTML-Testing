@@ -8,7 +8,7 @@
 
   <body style="background-color: #fcf0f0">
     <h1 align="center">Sign Up for Courses</h1>
-    <form action="/HTML-Testing/JapaneseWeb/welcome.html" method="get">
+    <form action="http://127.0.0.1:5500/JapaneseWeb/welcome.html" method="get">
       <label for="userName">Full Name </label><br /><br />
       <input
         type="text"
@@ -33,9 +33,9 @@
       />
       <br /><br />
       <label for="gender">Gender</label><br /><br />
-      <input type="radio" name="gender" id="gender" value="Male" />Male
-      <input type="radio" name="gender" id="gender" value="female" />Female
-      <input type="radio" name="gender" id="gender" value="other" />Other
+      <input type="radio" name="gender" id="male" value="male" /><label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female" /><label for="female">Female</label>
+      <input type="radio" name="gender" id="other" value="other" /><label for="other">other</label>
       <br /><br />
       <label for="phoneNumber">Phone Number</label><br /><br />
       <select name="country" id="phoneNumber">
@@ -104,7 +104,7 @@
       <br /><br />
       <input
         type="submit"
-        value="Submit"
+        value="Sign up"
         style="
           margin-right: 10%;
           width: 90px;
