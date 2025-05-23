@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: black;
+    background-color: yellow;
+    margin: 0;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: #C41E3A;
+}
+.income{
+    background-color: #0ff;
+}
+.expenses{
+    background-color: #f0f;
+}
+.profit{
+    background-color: #f00;
+}
+li{
+    display: inline;
+    font-size: medium;
+    border:double black ;
+    list-style: none;
+    margin: 5px;
+    padding:10px 20px 10px 20px;
+}
+p::first-letter{
+    font-size: 36px;
+    font-weight: bold;
+}
+h1{
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    
+}
